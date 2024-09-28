@@ -7,6 +7,7 @@ Welcome to the ReactJS Feature Projects repository! This repository contains a c
 - Introduction
 - Projects
   - Drag and Reorder List
+  - Netflix search feature
   - 
 - Installation
 - Usage
