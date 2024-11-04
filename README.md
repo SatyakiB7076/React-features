@@ -8,7 +8,9 @@ Welcome to the ReactJS Feature Projects repository! This repository contains a c
 - Projects
   - Drag and Reorder List
   - Netflix search feature
-  - 
+  - Protected Route
+  - Custom Hook 
+  -
 - Installation
 - Usage
 - Contributing
