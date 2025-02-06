@@ -1,12 +1,13 @@
 import './App.css'
+import MediaCard from './Components/Card'
 
 function App() {
-  
+
 
   return (
-    <>
-      routing
-    </>
+    <div className='flex align-center justify-center'>
+      <MediaCard />
+    </div>
   )
 }
 
