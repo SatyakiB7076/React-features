@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      redux todo
+      <h1>Learn Redux toolkit</h1>
     </>
   )
 }
