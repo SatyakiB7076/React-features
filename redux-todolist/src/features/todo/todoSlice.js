@@ -22,14 +22,12 @@ export const todoSlice = createSlice({
             )
         },
         updateTodo: (state, action) => {
-            //first find the todo using id which needed to update
-            const todo = state.todos = state.todos.find((todo) =>
-                todo.id === action.payload);
-            //if todo exists then change the text field from the payload
+            const { id, text } = action.payload;
+            const todo = state.todos.find((todo) => todo.id === id);
             if (todo) {
-                todo.text = action.payload.text;
+              todo.text = text; // Update the text
             }
-        }
+          }
     }
 })
 //one export for individual use cases in the component

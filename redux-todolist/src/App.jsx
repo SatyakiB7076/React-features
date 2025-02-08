@@ -1,16 +1,17 @@
 import './App.css'
 import AddTodo from './components/AddTodo'
 import Todo from './components/Todo'
-
+import {Provider} from "react-redux"
+import {store} from "./app/store"
 function App() {
-  
+
 
   return (
-    <>
-      <h1>Todo List</h1>
-<AddTodo />
-<Todo/>
-    </>
+    <Provider store={store}>
+
+      <AddTodo />
+      <Todo />
+    </Provider>
   )
 }
 
